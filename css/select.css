@@ -1,0 +1,39 @@
+.customSelect { 	
+	width: 100%;
+	border: 2px solid #b2c979;
+	background-color: #fff;
+	font-size: 15px;
+	color: #aaaaaa;
+	height: 50px;
+	line-height: 50px;
+	padding-left: 10px;
+	font-weight: 400;
+	font-family: 'Cabin', sans-serif;
+	text-transform: uppercase;
+    background: #fff url('../img/arrow-select.png') right center no-repeat;
+}
+
+.customSelect.customSelectHover {
+/* Styles for when the select box is hovered */
+}
+
+.customSelect.customSelectOpen {
+/* Styles for when the select box is open */
+}
+
+.customSelect.customSelectFocus {
+/* Styles for when the select box is in focus */
+}
+
+.customSelect.customSelectDisabledOption {
+/* Styles for when the selected item is a disabled one */
+}
+
+.customSelect.customSelectDisabled {
+/* Styles for when the select box itself is disabled */
+}
+
+.customSelectInner {
+	width: 100% !important;
+	cursor: pointer;
+}
